@@ -10,7 +10,7 @@ services:
         volumes:
             - db:/data/db
     app:
-        container_name: api
+        container_name: whatsapp_api
         build:
             context: .
             dockerfile: Dockerfile
